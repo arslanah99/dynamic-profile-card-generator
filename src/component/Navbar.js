@@ -59,6 +59,26 @@ const NavBar = () => {
                 Dank memes
               </ReactBootStrap.Nav.Link>
             </Link>
+            <Link to="/video1">
+              <ReactBootStrap.Nav.Link eventKey={3} href="#video1">
+                Video1
+              </ReactBootStrap.Nav.Link>
+            </Link>
+            <Link to="/pagination">
+              <ReactBootStrap.Nav.Link eventKey={4} href="#pagination">
+                Pagination
+              </ReactBootStrap.Nav.Link>
+            </Link>
+            <Link to="/ScrollIndicator">
+              <ReactBootStrap.Nav.Link eventKey={5} href="#ScrollIndicator">
+                ScrollIndicator
+              </ReactBootStrap.Nav.Link>
+            </Link>
+            <Link to="/Profile">
+              <ReactBootStrap.Nav.Link eventKey={6} href="#Profile">
+                Profile
+              </ReactBootStrap.Nav.Link>
+            </Link>
           </ReactBootStrap.Nav>
         </ReactBootStrap.Navbar.Collapse>
       </ReactBootStrap.Navbar>
